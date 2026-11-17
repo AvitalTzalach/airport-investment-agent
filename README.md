@@ -1,5 +1,7 @@
 # Airport Investment Intelligence Agent
 
+**Live demo:** https://airport-investment-agent-us.streamlit.app (no setup or API key needed)
+
 A chat assistant for analysts at a firm that invests in US airport modernization. You ask about
 airports in plain language, and it tells you where demand is outgrowing capacity, which is where an
 expansion is most likely to pay off.
