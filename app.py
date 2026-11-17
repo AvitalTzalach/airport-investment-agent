@@ -207,7 +207,8 @@ header[data-testid="stHeader"] {{background: transparent;}}
 def load_cloud_api_key():
     """On Streamlit Community Cloud the API key is an app secret; locally it comes from .env."""
     try:
-        key = st.secrets.get(API_KEY_ENV)
+        # accept the name in upper or lower case (lower case is the usual TOML style)
+        key = st.secrets.get(API_KEY_ENV) or st.secrets.get(API_KEY_ENV.lower())
     except Exception:  # no secrets configured (local run): keep using .env
         key = None
     if key:
