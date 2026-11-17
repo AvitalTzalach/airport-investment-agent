@@ -1,0 +1,13 @@
+# Light theme only (decided 2026-11-15): brand blue from the UI reference and the Inter font.
+[theme]
+base = "light"
+primaryColor = "#0B6FB3"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+
+[client]
+toolbarMode = "viewer"
+
+[server]
+# The code-change watcher registers every imported library file (LangChain, pandas...) for each new
+# browser session, which made every page load ~2.5 s. Off: ~0.4 s. After editing code, restart.
+fileWatcherType = "none"

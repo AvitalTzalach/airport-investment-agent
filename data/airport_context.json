@@ -1,0 +1,66 @@
+{
+  "SNA": [
+    {
+      "fact": "Passenger volume is capped by the 1985 Settlement Agreement (amended 2014): 11.8 million annual passengers through 2025, and 12.2 or 12.5 million for 2026-2030 depending on conditions. The agreement runs through December 31, 2030.",
+      "source": "https://ocair.com/about/administration/settlement-agreement/key-provisions-settlement-agreement"
+    },
+    {
+      "fact": "A night curfew limits operations; under the 2014 amendment the County must maintain and enforce it through 2035.",
+      "source": "https://www.ocair.com/about/administration/settlement-agreement/settlement-agreement-faqs"
+    },
+    {
+      "fact": "Night hours: departures 10 p.m. to 7 a.m. (8 a.m. Sunday), arrivals 11 p.m. to 7 a.m. (8 a.m. Sunday).",
+      "source": "https://www.ocair.com/about/administration/access-noise/fly-friendly"
+    }
+  ],
+  "SFO": [
+    {
+      "fact": "SFO's parallel runways are only 750 feet apart. In low visibility (e.g. fog), FAA rules allow side-by-side arrivals only on runways at least 4,300 feet apart, so arrivals go single-file and the arrival rate drops to about 30 per hour, requiring a Ground Delay Program.",
+      "source": "https://fly.sfo.gov/node/10068"
+    },
+    {
+      "fact": "In 2026 the FAA stopped side-by-side parallel arrivals at SFO; staggered arrivals are now allowed in good weather (reported up to about 42 per hour), below the rate the airport handled with parallel landings.",
+      "source": "https://www.nbcbayarea.com/news/local/faa-sfo-restrictions-more-landings/4127278/"
+    },
+    {
+      "fact": "In BTS delay data, non-extreme weather that slows operations (such as fog) is reported as a National Aviation System (NAS) delay, not as 'extreme weather'.",
+      "source": "https://www.bts.gov/topics/airlines-and-airports/understanding-reporting-causes-flight-delays-and-cancellations"
+    }
+  ],
+  "ANC": [
+    {
+      "fact": "Ted Stevens Anchorage International is ranked the #1 cargo airport in the U.S. and #3 in the world (Airports Council International World rankings, April 2026 release).",
+      "source": "https://dot.alaska.gov/aias/assets/PR-ANC-2026%20Rankings-ACI.pdf"
+    },
+    {
+      "fact": "Its location on the great-circle route between Asia and North America lets aircraft reach nearly 90% of the industrialized world within 9.5 hours; it is a hub for transpacific cargo, refueling, crew changes and technical stops.",
+      "source": "https://dot.alaska.gov/aias/assets/PR-ANC-2026%20Rankings-ACI.pdf"
+    }
+  ],
+  "BOS": [
+    {
+      "fact": "Massport describes Logan's main constraint as its geographically limited footprint: a campus of about 2,400 acres, one of the nation's smallest major airports.",
+      "source": "https://aviationweek.com/air-transport/airports-networks/airport-updates-latest-news-global-market-wc-feb-2-2026"
+    },
+    {
+      "fact": "The Terminal E (international gateway) expansion was approved as reusing space already in aviation use, without expanding the airport footprint.",
+      "source": "https://www.faa.gov/sites/faa.gov/files/airports/environmental/environmental_documents/bos/rod_boston_terminal_e_2016.pdf"
+    }
+  ],
+  "HVN": [
+    {
+      "fact": "In 2021 Avelo Airlines made Tweed New Haven its first East Coast base, under a privately financed plan (Avports 43-year lease, over $100 million) for a new terminal and a longer runway. This explains the jump in traffic from a very small base.",
+      "source": "https://www.aviationpros.com/airport-business/airport-infrastructure-operations/news/21221684/tweed-new-haven-airport-announces-100-million-expansion-that-includes-new-terminal-longer-runway-and-new-carrier"
+    },
+    {
+      "fact": "The 5,600-foot runway caps Avelo's 737-800 loads at 162 passengers; the FAA approved a 975-foot extension, reported to start construction in late 2026.",
+      "source": "https://www.insideflyer.com/posts/runway-extension-to-reshape-avelos-east-coast-operations/"
+    }
+  ],
+  "LAX": [
+    {
+      "fact": "LAX's $3.3 billion Automated People Mover, meant to ease access to the terminal area, has been repeatedly delayed; passenger service was reported for early January 2027 at the earliest.",
+      "source": "https://abc7.com/post/lax-people-mover-trains-opening-delayed-time-least-january-2027/19871969/"
+    }
+  ]
+}
