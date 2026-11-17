@@ -1,5 +1,6 @@
 venv/
 .env
+.streamlit/secrets.toml
 __pycache__/
 .pytest_cache/
 # data/*.csv.gz ships with the repo; the uncompressed originals stay local

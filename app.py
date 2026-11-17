@@ -4,6 +4,7 @@ Tables and charts are drawn directly from the tool results (deterministic), neve
 LLM's text. The LLM's answer is shown as the explanation above them.
 """
 import html
+import os
 import re
 
 import altair as alt
@@ -12,7 +13,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from airport_agent import tools
-from airport_agent.agent import build_agent, new_thread_id, stream_ask
+from airport_agent.agent import API_KEY_ENV, build_agent, new_thread_id, stream_ask
 from airport_agent.scoring_config import WEIGHTS
 
 st.set_page_config(page_title="Airport Investment Intelligence", page_icon="✈️", layout="centered")
@@ -202,6 +203,19 @@ header[data-testid="stHeader"] {{background: transparent;}}
 
 
 # ---------- Setup ----------
+
+def load_cloud_api_key():
+    """On Streamlit Community Cloud the API key is an app secret; locally it comes from .env."""
+    try:
+        key = st.secrets.get(API_KEY_ENV)
+    except Exception:  # no secrets configured (local run): keep using .env
+        key = None
+    if key:
+        os.environ.setdefault(API_KEY_ENV, key)
+
+
+load_cloud_api_key()
+
 
 @st.cache_resource(show_spinner="Loading data and agent...")
 def get_agent():
