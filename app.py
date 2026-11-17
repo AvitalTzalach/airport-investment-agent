@@ -175,7 +175,10 @@ header[data-testid="stHeader"] {{background: transparent;}}
   background: #fff !important;}}
 .st-key-focus-helper {{display: none;}}
 
-/* sidebar */
+/* sidebar: collapse button and scrollbar always visible (Streamlit shows them only on hover) */
+[data-testid="stSidebarCollapseButton"], [data-testid="stSidebarCollapseButton"] button {{
+  visibility: visible !important;}}
+[data-testid="stSidebarContent"] {{scrollbar-color: rgba(128,128,128,0.45) transparent !important;}}
 .sb-title {{font-weight: 700; font-size: 1.05rem; margin: 0.2rem 0 1.1rem;}}
 .sb-label {{display: flex; align-items: center; gap: 0.45rem; font-size: 0.74rem;
   font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6;
